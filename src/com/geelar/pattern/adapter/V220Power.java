@@ -1,4 +1,6 @@
 package com.geelar.pattern.adapter;
 
-public class V220Power {
+public interface V220Power {
+
+     int providerPower();
 }
