@@ -13,7 +13,7 @@ public class SimplePizzaFactory {
     public Pizza createPizza(String type) {
         Pizza pizza = null;
 
-        if (type.equals("apple")) {
+        if (type.equals("cheese")) {
             pizza = new ApplePizza();
         } else if (type.equals("hot")) {
             pizza = new HotPizza();

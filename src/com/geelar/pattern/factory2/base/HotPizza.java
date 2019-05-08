@@ -1,7 +1,7 @@
 package com.geelar.pattern.factory2.base;
 
 /**
- * 辣味肉夹馍
+ * 辣味披萨
  */
 public class HotPizza extends Pizza {
 

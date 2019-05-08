@@ -13,7 +13,7 @@ public abstract class PizzaStore {
     /**
      * 根据传入type不同卖不同类型的Pizza
      * @param type
-     * @return
+     * @return Pizza
      */
     public Pizza sellPizza(String type){
         Pizza pizza = createPizza(type);

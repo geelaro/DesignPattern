@@ -1,7 +1,7 @@
 package com.geelar.pattern.factory2.base;
 
 /**
- * 肉夹馍
+ * 披萨
  */
 public abstract class Pizza {
 
