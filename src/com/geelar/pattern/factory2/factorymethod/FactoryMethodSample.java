@@ -6,10 +6,10 @@ package com.geelar.pattern.factory2.factorymethod;
 public class FactoryMethodSample {
 
     public static void main(String[] args){
-        RouJiaMoStore xianStore = new XianRouJiaMoStore();
-        RouJiaMoStore gzStore = new GZRouJiaMoStore();
+        PizzaStore xianStore = new XianPizzaStore();
+        PizzaStore gzStore = new GZPizzaStore();
 
-        xianStore.sellRouJiaMo("La");
-        gzStore.sellRouJiaMo("Chashao");
+        xianStore.sellPizza("hot");
+        gzStore.sellPizza("chashao");
     }
 }

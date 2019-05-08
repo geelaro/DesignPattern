@@ -3,7 +3,7 @@ package com.geelar.pattern.factory2.base;
 /**
  * 肉夹馍
  */
-public abstract class RouJiaMo {
+public abstract class Pizza {
 
     protected String name;
 
@@ -13,6 +13,10 @@ public abstract class RouJiaMo {
 
     public void pack() {
         System.out.println(name + ": 包装");
+    }
+
+    public void cut(){
+        System.out.println(name+": 切割");
     }
 
     public void fire() {

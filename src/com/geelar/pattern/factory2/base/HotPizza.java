@@ -3,11 +3,11 @@ package com.geelar.pattern.factory2.base;
 /**
  * 辣味肉夹馍
  */
-public class LaRouJiaMo extends RouJiaMo {
+public class HotPizza extends Pizza {
 
-    private String laName = "辣味肉夹馍";
+    private String laName = "辣味披萨";
 
-    public LaRouJiaMo() {
+    public HotPizza() {
         this.name = laName;
     }
 
