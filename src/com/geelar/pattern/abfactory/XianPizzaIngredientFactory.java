@@ -1,20 +1,17 @@
 package com.geelar.pattern.abfactory;
 
-import com.geelar.pattern.abfactory.ingredient.Cheese;
-import com.geelar.pattern.abfactory.ingredient.Dough;
-import com.geelar.pattern.abfactory.ingredient.Lamb;
-import com.geelar.pattern.abfactory.ingredient.Meat;
+import com.geelar.pattern.abfactory.ingredient.*;
 
 public class XianPizzaIngredientFactory implements PizzaIngredientFactory {
 
     @Override
     public Dough createDough() {
-        return new Dough();
+        return new ThickCrustDough();
     }
 
     @Override
     public Cheese createCheese() {
-        return new Cheese();
+        return new MozzarellaCheese();
     }
 
     /**

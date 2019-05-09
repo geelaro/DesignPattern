@@ -1,4 +1,4 @@
 package com.geelar.pattern.abfactory.ingredient;
 
-public class Dough {
+public interface Dough {
 }

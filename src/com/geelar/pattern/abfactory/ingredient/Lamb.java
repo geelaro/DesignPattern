@@ -1,5 +1,5 @@
 package com.geelar.pattern.abfactory.ingredient;
 
-public class Lamb extends Meat {
+public class Lamb implements Meat {
 
 }

@@ -1,4 +1,5 @@
 package com.geelar.pattern.abfactory.ingredient;
 
-public interface Meat {
+public class MozzarellaCheese implements Cheese {
+
 }
