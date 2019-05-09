@@ -11,6 +11,25 @@ public class StateTest {
         machine.insertMoney();
         machine.backMoney();
 
+        //模拟中奖
+        System.out.println("------出货-------");
+        machine.insertMoney();
+        machine.turnCrank();
+        machine.insertMoney();
+        machine.turnCrank();
+        machine.insertMoney();
+        machine.turnCrank();
+        machine.insertMoney();
+        machine.turnCrank();
+        machine.insertMoney();
+        machine.turnCrank();
+        machine.insertMoney();
+        machine.turnCrank();
+        machine.insertMoney();
+        machine.turnCrank();
+        machine.insertMoney();
+        machine.turnCrank();
+        System.out.println("商品数: "+machine.getCount());
 
 
     }
