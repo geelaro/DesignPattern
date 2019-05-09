@@ -28,12 +28,13 @@ public class WinnerState implements State {
         System.out.println("恭喜你，中奖了！将得到2件商品");
         machine.dispense();
 
-        if (machine.getCount()==0){
+        if (machine.getCount() == 0) {
             System.out.println("商品已售罄。");
             machine.setCurrentState(machine.getSoldoutState());
         } else {
+            //如果还有商品，继续发货。
             machine.dispense();
-            if (machine.getCount()>0){
+            if (machine.getCount() > 0) {
                 machine.setCurrentState(machine.getNoMoneyState());
             } else {
                 System.out.println("商品已售罄。");
